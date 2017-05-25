@@ -28,3 +28,8 @@ body {
     color: #44f024;
     font-size: 40px;
 }
+
+
+.twitter-share-button {
+    display: none;
+}
