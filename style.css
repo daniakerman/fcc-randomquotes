@@ -29,7 +29,13 @@ body {
     font-size: 40px;
 }
 
-
 .twitter-share-button {
     display: none;
+}
+
+.twitter-share-button button {
+    width: 420px; height: 420px;
+    background: transparent url(new-twitter-bird-square.png);
+    border: none;
+    transform: scale(0.3, 0.3);
 }
