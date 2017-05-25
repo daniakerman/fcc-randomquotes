@@ -1,3 +1,6 @@
+$( document ).ready(function() {
+  // Handler for .ready() called.
+
 var quotes = ["Stay on target. &mdash; Gold Five",
     "Your eyes can deceive you. Don&#39;t trust them. &mdash; Obi-Wan Kenobi",
     "I find your lack of faith disturbing. &mdash; Darth Vader",
@@ -27,5 +30,6 @@ $("#quoteButton").click(function () {
 
     // Show tweet
     $('.twitter-share-button').show();
-
+});
+    
 });
