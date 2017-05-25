@@ -21,5 +21,11 @@ $("#quoteButton").click(function () {
 
     // put single quote in placeholder
     $('#randomQuote').html(singleQuote);
+    
+    // Tweet out a quote
+    $('.twitter-share-button').attr("href", 'https://twitter.com/intent/tweet?text=' + singleQuote);
+
+    // Show tweet
+    $('.twitter-share-button').show();
 
 });
