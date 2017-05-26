@@ -1,7 +1,8 @@
 body {
     position: relative;
-    background-color: black;
-}
+    background: #0f9b0f;
+    margin: 0;
+ }
 
 .header {
     font-family: monospace;
@@ -17,6 +18,8 @@ body {
     display: flex;
     flex-direction:column;
     justify-content:center;
+    background: -webkit-linear-gradient(to bottom, #000000, #0f9b0f); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #000000, #0f9b0f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .button {
