@@ -1,11 +1,13 @@
+
+
 body {
     position: relative;
     background: #0f9b0f;
     margin: 0;
+    font-family: 'Rajdhani', sans-serif;
  }
 
 .header {
-    font-family: monospace;
     font-size: 30px;
     margin: 20px;
 }
@@ -13,7 +15,7 @@ body {
 .container {
     margin: auto;
     text-align: center;
-    color: #FFF;
+    color: #FFFFFF;
     padding: 25px;
     display: flex;
     flex-direction:column;
@@ -32,7 +34,7 @@ body {
 }
 
 #randomQuote {
-    color: #44f024;
+    color: #FFFFFF;
     font-size: 40px;
 }
 
