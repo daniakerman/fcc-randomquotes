@@ -14,6 +14,9 @@ body {
     text-align: center;
     color: #FFF;
     padding: 25px;
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
 }
 
 .button {
@@ -22,6 +25,7 @@ body {
     font-size: 20px;
     background-color: #555555;
     box-shadow: 1px 1px #4dc303;
+    cursor: pointer;
 }
 
 #randomQuote {
@@ -31,11 +35,14 @@ body {
 
 .twitter-share-button {
     display: none;
+    position: relative;
+    border: none;
+    margin: 0 auto;
 }
 
 .twitter-share-button button {
-    width: 420px; height: 420px;
+    width: 120px; height: 120px;
     background: transparent url(new-twitter-bird-square.png);
     border: none;
-    transform: scale(0.3, 0.3);
+    cursor: pointer;
 }
