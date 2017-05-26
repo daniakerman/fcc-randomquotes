@@ -1,16 +1,16 @@
 $(document).ready(function () {
     // Handler for .ready() called.
 
-    var quotes = ["Stay on target. &mdash; Gold Five",
-        "Your eyes can deceive you. Don&#39;t trust them. &mdash; Obi-Wan Kenobi",
-        "I find your lack of faith disturbing. &mdash; Darth Vader",
-        "Do. Or do not. There is no try. &mdash; Yoda",
-        "Your focus determines your reality. &mdash; Qui-Gon Jinn",
-        "It&#39;s not my fault. &mdash; Han Solo",
-        "It&#39;s not my fault. &mdash; Han Solo",
-        "It&#39;s not my fault. &mdash; Han Solo",
-        "It&#39;s not my fault. &mdash; Han Solo",
-        "It&#39;s not my fault. &mdash; Han Solo"]
+    var quotes = ["Stay on target. - Gold Five",
+        "Your eyes can deceive you. Don't trust them. - Obi-Wan Kenobi",
+        "I find your lack of faith disturbing. - Darth Vader",
+        "Do. Or do not. There is no try. - Yoda",
+        "Your focus determines your reality. - Qui-Gon Jinn",
+        "It's not my fault. - Han Solo",
+        "It's not my fault. - Han Solo",
+        "It's not my fault. - Han Solo",
+        "It's not my fault. - Han Solo",
+        "It's not my fault. - Han Solo"]
 
 
     // Assigned/bind click event to the handler/callback
